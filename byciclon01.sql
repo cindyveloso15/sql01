@@ -66,7 +66,7 @@ CREATE TABLE tb_enderecos(
 	numero INT NOT NULL
 );
 
-CREATE TABLE temporaria(
+'''CREATE TABLE temporaria(
 	coluna	INT,
 	coluna02 INT
-);
+);'''
