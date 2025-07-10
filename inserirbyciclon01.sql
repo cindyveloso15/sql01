@@ -26,8 +26,8 @@ INSERT INTO tb_pedidos(idpedido,idcliente, idvendedor, datapedido,qtditens,valor
 (2,2,2,'2025-07-21',1,5000);
 
 
-INSERT INTO tb_itenspedidos(iditempedido,idpedido,idproduto,quantidade,precounitario,desconto)VALUES
-(1,2,1,1,3600.00,0),
-(2,2,1,1,9000.00,0);
 
+INSERT INTO tb_pedidos (idcliente, idvendedor, datapedido, qtditens, valortotal)VALUES
+(1, 1, '2025-07-01', 3, 450000),
+(2, 2, '2025-07-03', 2, 300000);
 

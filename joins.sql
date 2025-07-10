@@ -35,7 +35,7 @@ ALTER TABLE tb_itenspedidos
 ADD CONSTRAINT fk_itenspedidos_pedidos
 FOREIGN KEY (idpedido) REFERENCES tb_pedidos(idpedido)
 
----  tb_itens_pedidos --> tb_produtos
-ALTER TABLE tb_itens_pedidos
+---  tb_itenspedidos --> tb_produtos
+ALTER TABLE tb_itenspedidos
 ADD CONSTRAINT fk_itenspedidos_produto
 FOREIGN KEY (idproduto) REFERENCES tb_produtos(idproduto)
